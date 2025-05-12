@@ -1,0 +1,48 @@
+(WESTERN CONFERENCE)
+
+1	
+Utah Jazz
+Jazz (x)	50-18	.735	0	26-12	6-4	W5
+2	
+Phoenix Suns
+Suns (x)	48-20	.706	2	27-11	7-4	L1
+3	
+LA Clippers
+Clippers (x)	45-23	.662	5	27-13	9-3	L1
+4	
+Denver Nuggets
+Nuggets (x)	44-24	.647	6	25-15	8-2	L2
+5	
+Dallas Mavericks
+Mavericks	40-28	.588	10	20-19	6-4	W4
+6	
+Portland Trail Blazers
+Trail Blazers	39-29	.574	11	20-18	4-6	W3
+7	
+Los Angeles Lakers
+Lakers	38-30	.559	12	23-17	4-8	W1
+8	
+Golden State Warriors
+Warriors	35-33	.515	15	21-17	4-7	W2
+9	
+Memphis Grizzlies
+Grizzlies	34-33	.507	15.5	15-22	4-6	W1
+10	
+San Antonio Spurs
+Spurs	32-35	.478	17.5	17-23	6-6	L1
+11	
+New Orleans Pelicans
+Pelicans	31-37	.456	19	18-20	6-4	W1
+12	
+Sacramento Kings
+Kings	30-38	.441	20	17-21	5-7	W1
+13	
+Minnesota Timberwolves
+Timberwolves	21-47	.309	29	14-26	5-6	W1
+14	
+Oklahoma City Thunder
+Thunder	21-48	.304	29.5	11-28	3-8	L7
+15	
+Houston Rockets
+Rockets	16-52	.235	34	10-29	5-7	L5
+

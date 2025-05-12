@@ -1,0 +1,47 @@
+(EASTERN CONFERENCE)
+
+1	
+Philadelphia 76ers
+76ers (x)	47-21	.691	0	29-9	10-2	W8
+2	
+Brooklyn Nets
+Nets (x)	44-24	.647	3	23-16	8-4	W1
+3	
+Milwaukee Bucks
+Bucks (x)	43-24	.642	3.5	27-11	10-0	W5
+4	
+New York Knicks
+Knicks	38-30	.559	9	23-17	3-8	W1
+5	
+Atlanta Hawks
+Hawks	37-31	.544	10	21-18	6-3	L1
+6	
+Miami Heat
+Heat	37-31	.544	10	21-17	6-6	W2
+7	
+Boston Celtics
+Celtics	35-33	.515	12	20-19	4-7	L2
+8	
+Charlotte Hornets
+Hornets	33-35	.485	14	20-20	8-3	L1
+9	
+Washington Wizards
+Wizards	32-36	.471	15	14-24	2-7	W2
+10	
+Indiana Pacers
+Pacers	31-36	.463	15.5	17-21	6-4	L1
+11	
+Chicago Bulls
+Bulls	29-39	.426	18	19-19	6-5	W3
+12	
+Toronto Raptors
+Raptors	27-41	.397	20	17-23	4-8	L3
+13	
+Orlando Magic
+Magic	21-47	.309	26	13-25	4-7	L3
+14	
+Cleveland Cavaliers
+Cavaliers	21-47	.309	26	15-23	4-7	L10
+15	
+Detroit Pistons
+Pistons	20-49	.290	27.5	12-29	1-11	L2

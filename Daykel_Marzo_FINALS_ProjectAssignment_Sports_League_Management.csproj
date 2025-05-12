@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F1786E4D-2505-4120-A51C-03EDCAB1B276}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Daykel_Marzo_FINALS_ProjectAssignment_STM</RootNamespace>
+    <AssemblyName>Daykel_Marzo_FINALS_ProjectAssignment_STM</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GAMES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAMES.Designer.cs">
+      <DependentUpon>GAMES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HOME.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HOME.Designer.cs">
+      <DependentUpon>HOME.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MORE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MORE.Designer.cs">
+      <DependentUpon>MORE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MOREthirdpage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MOREthirdpage.Designer.cs">
+      <DependentUpon>MOREthirdpage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MORE_secondpage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MORE_secondpage.Designer.cs">
+      <DependentUpon>MORE_secondpage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PLAYERS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PLAYERS.Designer.cs">
+      <DependentUpon>PLAYERS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="STANDINGS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STANDINGS.Designer.cs">
+      <DependentUpon>STANDINGS.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAMES.resx">
+      <DependentUpon>GAMES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HOME.resx">
+      <DependentUpon>HOME.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MORE.resx">
+      <DependentUpon>MORE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MOREthirdpage.resx">
+      <DependentUpon>MOREthirdpage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MORE_secondpage.resx">
+      <DependentUpon>MORE_secondpage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLAYERS.resx">
+      <DependentUpon>PLAYERS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="STANDINGS.resx">
+      <DependentUpon>STANDINGS.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nba-logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\XPJrX2i.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nbaplayerimage.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NikolaJokic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StephenCurry.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JoelEmbiid.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GiannisAntetokuonpo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChrisPaul.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lebronPIC.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\durantPIC.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Brooklyn-Nets-v-Toronto-Raptors---Game-One-479689e947063c768131aa425b6b74e6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Brooklyn-Nets-v-Toronto-Raptors---Game-One-479689e947063c768131aa425b6b74e61.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SUNS.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SPURS.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ROCKETS.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RAPTORS.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PISTONS.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PHILADELPHIA.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PELICANS.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PACERS.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ORLANDO.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OKC.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NUGGETS.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NETS.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MINNESOTA.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MEMPHIS.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MAVS.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LAKERS.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KNICKS.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KINGS.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HORNETS.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HEAT.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HAWKS.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CLIPPERS.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CELTICS.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CAVS.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BULLS.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BUCKS.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BLAZERS.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WASHINGTON.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WARRIORS.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UTAH.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MICHAEL JORDAN.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NBA TROPHY.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\STREETBALL.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NBA_LOGOOO.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %282%29.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

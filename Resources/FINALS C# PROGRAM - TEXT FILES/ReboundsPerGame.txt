@@ -1,0 +1,26 @@
+(REBOUNDS PER GAME - TOP 5 ) 
+
+1
+Clint Capela
+ATL
+14.4
+
+2
+Rudy Gobert
+UTAH
+13.3
+
+3
+Jonas Valanciunas
+MEM
+12.4
+
+4
+Domantas Sabonis
+IND
+12.0
+
+5
+Nikola Vucevic
+ORL/CHI
+11.6

@@ -1,0 +1,26 @@
+(NBA TOP 5 PPG)
+
+1
+Stephen Curry
+GS
+31.8
+
+2
+Bradley Beal
+WSH
+31.4
+
+3
+Joel Embiid
+PHI
+29.2
+
+4
+Damian Lillard
+POR
+28.7
+
+5
+Giannis Antetokounmpo
+MIL
+28.2
